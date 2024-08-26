@@ -11,7 +11,7 @@ function useCurrencyInfo(currency) {
                 .then((res) => setData(res[currency]))
                 .catch((error) => console.error("Error fetching currency data:", error));
         }
-    }, [currency]);
+    }, [currency]); 
 
     return data;
 }
