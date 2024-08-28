@@ -43,5 +43,6 @@
     },
     "accessibility.signals.positionHasWarning": {
         "sound": "off"
-    }
+    },
+    "git.ignoreLimitWarning": true
 }
